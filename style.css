@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Array-SemiboldWide';
+  src: url('Fonts/Array/Fonts/WEB/fonts/Array-SemiboldWide.woff2') format('woff2'),
+       url('Fonts/Array/Fonts/WEB//fonts/Array-SemiboldWide.woff') format('woff'),
+       url('Fonts/Array/Fonts/WEB//fonts/Array-SemiboldWide.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Array-Regular';
+  src: url('Fonts/Array/Fonts/WEB/fonts/Array-Regular.woff2') format('woff2'),
+       url('Fonts/Array/Fonts/WEB/fonts/Array-Regular.woff') format('woff'),
+       url('Fonts/Array/Fonts/WEB/fonts/Array-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+body{
+    background-color: black;
+}
+.Headline{
+    color: white;
+    text-align: center;
+    font-family: Array-SemiboldWide;
+    font-size: 80px;
+}
+.my{
+    color: rgb(13, 177, 43);
+}
+.p1p{
+    color: white;
+    text-align: left;
+    font-family: Array-Regular;
+    font-size: 40px;
+    width: 50%;
+    margin-left: 10px;
+}
+.project1{
+    display: flex;
+    margin-top: 150px;
+}
+.p1img{
+    width: 50%;
+    margin-right: 10px;
+    border: rgb(13, 177, 43) 5px solid;
+    border-radius: 20px;
+    ;
+}
+.project2{
+    display: flex;
+    margin-top: 150px;
+}
+.p2img{
+    width: 50%;
+    margin-left: 10px;
+    border: rgb(13, 177, 43) 5px solid;
+    border-radius: 20px;
+    ;
+}
+.p2p{
+    color: white;
+    text-align: right;
+    font-family: Array-Regular;
+    font-size: 40px;
+    width: 50%;
+    margin-right: 10px; 
+}
+.p3p{
+    color: white;
+    text-align: left;
+    font-family: Array-Regular;
+    font-size: 40px;
+    width: 50%;
+    margin-left: 10px;
+}
+.project3{
+    display: flex;
+    margin-top: 150px;
+}
+.p3img{
+    width: 50%;
+    margin-right: 10px;
+    border: rgb(13, 177, 43) 5px solid;
+    border-radius: 20px;
+    ;
+}
